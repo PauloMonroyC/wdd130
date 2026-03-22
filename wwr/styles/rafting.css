@@ -33,6 +33,7 @@ footer {
 
 h1,
 h2 {
+
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }
@@ -45,8 +46,16 @@ article {
     padding: 8px;
 }
 
-.socialmedia a {
-    text-decoration: none;
+.socialmedia {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+}
+
+header,
+main,
+footer {
+    width: 840px;
 }
 
 .hero {
@@ -61,7 +70,8 @@ article {
 
 h1 {
     position: absolute;
-    top: 20px;
+    top: 30px;
+    font-size: 2rem;
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -70,12 +80,31 @@ h1 {
     color: #ffffff;
 }
 
+h2 {
+    position: static;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: white;
+}
+
 .hero article {
     position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 80, 0.7);
+    color: white;
 }
 
 .hero article img {
     float: right;
     width: 125px;
+    margin-left: 10px;
 
+}
+
+section h2 {
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 10px;
 }
