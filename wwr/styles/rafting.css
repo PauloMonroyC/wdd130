@@ -8,9 +8,9 @@
     --primary-color: rgb(166, 205, 255);
     --secondary-color: #005;
     --accent1-color: #005;
-    --accent2-color: #005;
-    --heading-font: "Times New Roman", "Georgia", serif;
-    --body-font: Arial, Helvetica, sans-serif;
+    --accent2-color: rgb(0, 0, 0);
+    --heading-font: "Times New Roman";
+    --body-font: Arial;
 }
 
 header {
