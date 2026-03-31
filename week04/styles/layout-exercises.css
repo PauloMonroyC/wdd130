@@ -22,35 +22,41 @@ div {
 }
 
 .flex {
-    background-color: #aba;
-    /* write declarations here */
-
+    background-color: rgb(0, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .grid {
-    background-color: #abb;
-    /* enter declarations here */
+    background-color: rgb(0, 255, 255);
+    display: grid;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .container2 {
-    /* write declarations here */
-
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto-fill;
+    gap: 10px;
 }
 
 .two {
-    background-color: #ace;
+    background-color: rgb(0, 55, 255);
     height: 100px;
 }
 
 .container3 {
-    /* write declarations here */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
 
 }
 
 .columns-3 {
-    /* write declaration here */
-
+    grid-column: 1/4;
 }
 
 .three {

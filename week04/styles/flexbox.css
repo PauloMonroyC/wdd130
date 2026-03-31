@@ -5,9 +5,13 @@ body {
 
 .flex-container {
     border: 3px dashed darkcyan;
-    background-color: lightyellow;
+    background-color: rgb(61, 61, 43);
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+
 }
 
 .flex-item {
