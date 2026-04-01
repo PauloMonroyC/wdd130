@@ -157,7 +157,7 @@ header img {
     margin: auto;
 }
 
-.figure-5 {
+.figure-5 img {
     max-width: 150px;
     max-height: 150px;
 }
@@ -196,12 +196,6 @@ section,
 article {
     margin: 16px;
     padding: 8px;
-}
-
-.socialmedia {
-    display: flex;
-    justify-content: left;
-    gap: 15px;
 }
 
 .socialmedia img {
