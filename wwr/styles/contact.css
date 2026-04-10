@@ -163,7 +163,7 @@ button,
 
 .figure-1 img {
     max-width: 150px;
-    max-height: auto;
+    height: auto;
 }
 
 .figure-2 {
@@ -177,7 +177,7 @@ button,
 
 .figure-2 img {
     max-width: 150px;
-    max-height: auto;
+    height: auto;
 }
 
 .figure-3 {
@@ -191,7 +191,7 @@ button,
 
 .figure-3 img {
     max-width: 150px;
-    max-height: auto;
+    height: auto;
 }
 
 figcaption {
