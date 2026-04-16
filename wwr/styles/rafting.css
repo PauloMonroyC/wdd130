@@ -140,11 +140,6 @@ button,
     margin: auto;
 }
 
-.figure-3 img {
-    max-width: 150px;
-    height: auto;
-}
-
 figcaption {
     background-color: #222222;
     color: rgb(255, 255, 255);
