@@ -12,10 +12,76 @@
     --padding: 1rem;
 }
 
+/* */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Trips site css */
+
+.trips-hero {
+    text-align: center;
+    padding: 2rem;
+    background: var(--accent1-color);
+    color: white;
+}
+
+.trips-hero h1 {
+    color: white;
+    border: none;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: white;
+    color: var(--accent1-color);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.trips-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.trip-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background: white;
+}
+
+.trip-card img {
+    width: 100%;
+    height: auto;
+}
+
+.trips-table {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: var(--accent1-color);
+    color: white;
 }
 
 .grid-1 .box {
